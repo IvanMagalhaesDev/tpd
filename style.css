@@ -1,0 +1,130 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.main-header {
+  background: #097390;
+  padding: 4px 0;
+
+  position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  height: 60px;
+}
+
+.hero {
+  padding: 100px 0;
+  color: #097390;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 340px;
+}
+
+.btn-primary {
+  background: #1b9fc3;
+  border: none;
+}
+
+.course-card {
+  background: #d9d9d9;
+  border-radius: 40px;
+  padding: 20px;
+
+  height: 420px;              
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: center;
+}
+
+.course-card h3 {
+  font-size: 16px;    
+  font-weight: 600;
+  margin: 12px 0 6px;
+  color: #097390;
+}
+
+.course-desc {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 18px;
+}
+
+.course-card {
+  background: #d9d9d9;
+  border-radius: 40px;
+  padding: 20px;
+
+  height: 420px;        
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: center;
+}
+
+
+
+.numbers {
+  padding: 100px 0;
+}
+
+.number {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #097390;
+}
+
+.testimonials {
+  padding: 100px 0;
+}
+
+.testimonial-card {
+  background: #097390;
+  color: white;
+  padding: 40px;
+  border-radius: 40px;
+  border: 5px solid #1B9FC3;
+}
+
+.testimonial-card img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;   
+  object-fit: cover;    
+
+  margin-bottom: 15px;
+
+  border: 5px solid #1B9FC3;
+}
+
+.footer {
+  background: #097390;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-logo {
+  height: 50px;
+  margin-bottom: 15px;
+}
